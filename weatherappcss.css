@@ -17,11 +17,12 @@ html {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     top: 21px;
-    width: 65.9%;
+    width: 74.3%;
     height: 26px;
     margin-left: -40px!important;
     margin: 0 auto;
     background-color: #f1f1f1;
+    
 }
 
 .navigation ul {
@@ -42,13 +43,26 @@ html {
 }
 
 .container {
-	width: 60%;
-    background: rgba(225,225,225,.6);
+    font-weight: 400;
+	width: 70%;
+    background: rgba(225,225,225,.8);
     margin: 40px auto;
     padding: 40px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     font-family: 'Helvetica 14px',sans-serif;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}
+
+.jokes {
+    font-family: 'Slabo 27px', serif;
+    margin: auto!important;
 }
 
 h1, h2, h3, .navigation li a {
